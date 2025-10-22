@@ -1,0 +1,89 @@
+# 🎯 MAIN PROJECT .gitignore
+
+# ========== NODE.JS/REACT ==========
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+.next/
+*.local
+
+# ========== PYTHON ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+
+# ========== IDE & EDITORS ==========
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ========== OPERATING SYSTEM ==========
+.DS_Store
+Thumbs.db
+
+# ========== PROJECT SPECIFIC ==========
+# Uploads and temporary files
+uploads/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# API Keys and environment variables
+.env
+*.env
+config/keys.py
+secrets.py
+
+# Logs
+*.log
+logs/
+
+# Large files (add if you have any)
+*.pdf
+*.zip
+*.tar.gz
+
+# ========== AI MODEL (if in same repo) ==========
+# If your AI model is in a subfolder, add these:
+# ai_model/models/
+# ai_model/ckpts/
+# ai_model/outputs/
+# ai_model/temp*
